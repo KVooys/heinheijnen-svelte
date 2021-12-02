@@ -17,7 +17,7 @@
             selectedTranslation = translations[0];
         }
     }
-    
+
     function toggleAccordion() {
         if (openAccordion) {
             openAccordion = false;
@@ -36,7 +36,7 @@
 	<div class="booknav">
         <h3>Maanlichtverhalen</h3>                    
             <p>
-                Geïnspireerd door A L Snijders werkt Hein Heijnen aan een nieuwe bundel korte verhalen. De titel luidt: Maanlichtverhalen.
+                Geïnspireerd door A. L. Snijders werkt Hein Heijnen aan een nieuwe bundel korte verhalen. De titel luidt: Maanlichtverhalen.
                 Onderstaande knop opent een voorproefje. <br /> 
                 <button on:click={toggleAccordion}>'Uw naam?'</button>
                 {#if openAccordion}
