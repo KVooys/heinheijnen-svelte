@@ -27,17 +27,6 @@ h2:hover, h3:hover, a:hover {
   flex-direction: column;
 }
 
-.navbar {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-
-}
-
-.menu {
-  justify-content: space-evenly;
-}
-
 .books {
   display: flex;
 }
@@ -49,13 +38,8 @@ h2:hover, h3:hover, a:hover {
 
 .content {
   flex: 70%;
-  margin: 2%;
-}
-
-.image {
-  margin-right: 3rem;
-  object-fit: contain;
-  /*  */
+  margin-top: 0;
+  margin-left: 2%;
 }
 
 img {
