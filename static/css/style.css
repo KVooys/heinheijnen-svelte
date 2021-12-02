@@ -1,0 +1,63 @@
+body {
+  background-image: url("../images/Sakura-background.jpg");
+  background-size: cover;
+  /* padding: 3em; */
+  font-family: sans-serif
+}
+
+/* add a small hover-over effect to the headers and links */
+/* old h color:   color: #2c8898; */
+
+h2, h3, a {
+  color: #2760AD;
+  -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+}
+
+h3 {
+  color:#35A55D;
+}
+
+h2:hover, h3:hover, a:hover {
+  color: #671D79;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+
+.menu {
+  justify-content: space-evenly;
+}
+
+.books {
+  display: flex;
+}
+
+.image_div {
+  display: flex;
+  flex: 35%;
+}
+
+.content {
+  flex: 70%;
+  margin: 2%;
+}
+
+.image {
+  margin-right: 3rem;
+  object-fit: contain;
+  /*  */
+}
+
+img {
+  border: 1px solid #4a4a4a;
+}
