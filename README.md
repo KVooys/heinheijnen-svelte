@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa8ce63f-ecca-4948-844a-a223e6733f39/deploy-status)](https://app.netlify.com/sites/heijnheijnen/deploys)
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);

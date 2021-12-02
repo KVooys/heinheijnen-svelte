@@ -17,6 +17,7 @@
             selectedTranslation = translations[0];
         }
     }
+    
     function toggleAccordion() {
         if (openAccordion) {
             openAccordion = false;
