@@ -36,37 +36,70 @@
 	<div class="booknav">
         <h3>Maanlichtverhalen</h3>                    
             <p>
-                Geïnspireerd door A. L. Snijders werkt Hein Heijnen aan een nieuwe bundel korte verhalen. De titel luidt: Maanlichtverhalen.
-                Onderstaande knop opent een voorproefje. <br /> 
-                <button on:click={toggleAccordion}>'Uw naam?'</button>
+                De auteur Hein Heijnen werkt aan een nieuwe bundel levensverhalen. Telkens één A-viertje. Daarin vindt vaak een ontmoeting plaats, die het alledaagse overschrijdt. <br />
+                De werktitel luidt: 'Maanlichtverhalen'. <br />
+                Een van deze verhalen is 'Weeshuis', welke hieronder te lezen is. <br />
+                <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Weeshuis'": "Open 'Weeshuis'"}</button>
                 {#if openAccordion}
-                <p>
-                    Het groene licht floept van oranje op rood, juist als ik er langs fiets.  <br /> 
-                    Even later houdt een agent mij aan. ‘Mijnheer. U reed net door rood.’<br /> 
-                    ‘Dag agent. Het was zonet echt groen,’ jok ik.<br /> 
-                    ‘Ja, dat zeggen ze allemaal’ gromt hij. Het is een warme zomerdag. Hij zet zijn helm af en hangt hem aan het stuur van zijn motor. Nu zie ik dat hij een peervormig hoofd heeft met een puntige kin en zware borstelwenkbrauwen. Hij lijkt op Bert, een figuur uit een stripverhaal voor kinderen.  Onheilspellend haalt hij een notitieboekje tevoorschijn en een pen. <br /> 
-                    ‘Uw naam?’<br /> 
-                    ‘Mijn grootvader was ook agent. Hij ving dieven en inbrekers  – vaak met levensgevaar.’<br /> 
-                    ‘Uw naam?’<br /> 
-                    ‘Zijn naam was Zeger Zuurjager. Hoofdagent A. U kent zijn naam natuurlijk.’    <br /> 
-                    De agent klapt zijn boekje dicht. ‘Had dat dan meteen gezegd. Die naam is legendarisch in het korps.’
-                    ‘Kent u ook het verhaal over de insluiper die men ‘Sinterklaas’ noemde?Telkens drong hij een huis in, via de dakkapel. Dan beroofde hij de bewoners.’<br /> 
-                    Nadenkend houdt de agent zijn hoofd scheef. Hij meent van niet. <br /> 
-                    ‘Mijn grootvader zag een verdachte figuur bij een huis naar boven klimmen.  Hij belde er aan. De bewoner liet hem binnen. In de dakkapel wachtte Zeger de Sint op en sloeg hem in de boeien.’ <br /> 
-                    ‘Een sterk verhaal,’ zegt de agent. <br /> 
-                    ‘En kent u soms de geschiedenis van  Huize Avondrood’? Het was  een huis van lichte zeden.’<br /> 
-                    De agent wappert zich met zijn boekje koelte toe. ‘Hoe zat dat precies?’<br /> 
-                    ‘Op een gegeven moment klopt er een huilend kind aan: Lorna. Een verwaarloosd weeskind zonder familie.  Liefdevol nemen de dames in dat verdorven tehuis haar onder hun hoede. Na een tijdje zien ze haar als hun eigen kind. U raadt het al. Uiteindelijk wordt het een onweerstaanbare jonge vrouw met hetzelfde beroep als haar verzorgsters.
-                    Een labiele zeebonk verklaart haar zijn liefde. Zij zegt hem dat zij daar niet van gediend is. De man eist echter dat zij haar ambacht vaarwel zegt en zonder uitstel een nieuw leven begint. Samen met hem. Zij weigert weer. Door het dolle heen en vloekend bedreigt hij haar met een slagersmes. Gillend vlucht zij naar buiten. Achtervolgd door de woesteling. Het lijkt wel een opera. Ten einde raad springt zij de gracht in, hoewel zij niet kan zwemmen.
-                    Toevallig komt mijn grootvader net voorbij. Hij ziet de achtervolging. Met blote handen ontwapent hij de messentrekker. Daarna redt hij Lorna van de verdrinkingsdood. De driftkikker is er zó van onder de indruk dat hij tot inkeer komt. Later sluit hij zich nederig bij het Leger des Heils aan.<br /> 
-                    ´Vervolgens raakt mijn grootvader smoorverliefd op Lorna. Hij beschouwt haar vorige leven als een afgedane zaak en is met haar getrouwd. Zij werd mijn lieve grootmoeder.’<br /> 
-                    ‘Een verhaal voor een succesfilm,’ zegt de agent.   <br /> 
-                    ’En weet u wel waarom grootvader Zeger nooit bevorderd werd tot rechercheur?´<br /> 
-                    Verbaasd schudt hij ‘nee’. <br /> 
-                    ‘Eens liet hij de gevreesde hoofdcommissaris ongehinderd door een rood stoplicht rijden. Deze roept hem echter op het matje. Hij beschuldigt hem van hielenlikken en plichtverzaking.’<br /> 
-                    Opeens zegt de agent met barse stem:  ‘Die fout ga ik niet maken.’ Hij slaat zijn boekje weer open. <br /> 
-                    ‘Uw naam?’<br /> 
-                </p>
+                
+                    <h4>Weeshuis</h4>
+                    <p>
+                    Bij mijn wandeling met een volle kinderwagen spreekt een jeugdig stel me aan op straat. Met haar
+                    grote neus en haar lange piekhaar heeft zij wel iets van een heks. Hij lijkt een Italiaan of Griek door
+                    zijn donkere krullenbol. Toch zie ik de volle maan al schemeren op zijn kruin.
+                    In de kinderwagen zitten mijn twee geadopteerde jongetjes.
+                    </p>
+                    <p>
+                    De feeks roept: ‘Jeetje. Wat een mooie kindertjes. Komen ze uit Zanzibar? <br />
+                    Zij is al de vierde vragensteller van de dag. Deze donkere kindertjes hebben de aantrekkingskracht
+                    van een achtbaan op de kermis.
+                    </p>
+                    <p>
+                    Langzamerhand begin ik buikpijn te krijgen van alle aandacht. ‘Nee hoor,‘ zeg ik. ‘We haalden ze uit
+                    een weeshuis in Stockholm.’ <br />
+                    ‘Hé ?! Scandinavië ?’ <br />
+                    ‘Ja. Destijds werd het schaap Dolly met veel succes gekloond. Nog wel uit haar eigen huidcellen. Dat
+                    bracht de hoogleraar Romeo Strindberg op het idee iets dergelijks met mensen te gaan doen. Om
+                    precies te zijn: hij wilde het materiaal van overleden genieën bewerken. Hij droomde ervan ze
+                    postuum te kunnen klonen. Hun stoffelijke resten zijn de relieken van cultuurprofeten. Ze vormen
+                    een brug tussen ons en deze grote geesten. Op allerlei begraafplaatsen en in diverse kerken slaagde
+                    hij erin monsters van hun overblijfselen te nemen. ’
+                    </p>
+                    <p>
+                    ‘Was het niet lastig om iets bruikbaars uit die resten te verkrijgen?’ vraagt ze praktisch. <br />
+                    ‘Ja. Neem bijvoorbeeld Dimitri Sjostakovitsj. Bij nacht en ontij moest zijn kist heimelijk geopend
+                    worden om zijn lichaamscellen eruit op te diepen.’
+                    </p>
+                    <p>
+                    ‘Maar na zoveel jaar,’ blijft ze tegen werpen, ‘zal alles wel vergaan zijn, behalve de botresten.’<br />
+                    ‘Dat valt enorm mee. Gelukkig vond de professor een revolutionaire methode om de huid van het
+                    overschot weer op te peppen. Hij dompelt hem vierentwintig uur in een verjongingsbad van eigen
+                    vinding. Tussen haakjes: eenmaal per jaar gaan hij en zijn medewerkers ook in dat bad zitten. Om
+                    hun rimpelig uiterlijk en hun verlepte huid een shot van jeugd en frisheid toe te dienen. Hoe dan ook:
+                    nu staat hij aan het hoofd van een weeshuis met gekloonde kinderen van hoogbegaafde mensen.’
+                    ‘Aan wie moeten we dan denken ?’<br />
+                    ‘Bijvoorbeeld aan Einstein, Picasso, Maria Callas. Alleen ingewijden weten van welk megatalent ze
+                    afkomstig zijn.’
+                    </p>
+                    <p>
+                    Ze wijst naar de kindertjes. ‘Mag ik vragen wie… – om zo te zeggen - hun ideële vader is ?’<br />
+                    ‘Privacy hoor. Toch kan ik wel verklappen dat het om Nelson Mandela gaat. Deze jongens kunnen
+                    beiden dromen over een loopbaan als grote vredestichters.’<br />
+                    ‘Heeft deze gang van zaken niet een groot bezwaar? Ontstaat er door dat kloongedoe niet een
+                    vaderloze maatschappij?’<br />
+                    ‘Ach nee. Dat zou juist heel mooi zijn: hofmakerij en seks alleen voor je plezier.’<br />
+                    Hierop beweert de heks met schelle stem dat draagmoeders altijd nodig zullen blijven.<br />
+                    ‘Natuurlijk’ zeg ik lachend. ‘Zonder ons, vrouwen, zou het leven voor de gewone man een hel zijn.’
+                    De twee druipen af. Gelukkig kon ik ze afschepen met een ter plekke verzonnen fantasieverhaal.
+                    Even later komt mijn lieve vriendin aanlopen. Met een benieuwd gezicht vraagt ze wat ik dat
+                    nieuwsgierige stel in hemelsnaam op de mouw heb gespeld.
+                    </p><p>
+                    ‘Waarom wil je dat weten?’<br />
+                    ‘Die Italiaan sputterde dat hij nog nooit in zijn leven zo’n wartaal had gehoord. ‘Het is kukeleku,’
+                    riep hij—tegen zijn voorhoofd tikkend.<br />
+                    Toch wil ze zelfs het adres van een professor in Zweden aan je vragen. Ze snauwde hem toe: ‘Die
+                    mediterrane genen van jou vertrouw ik voor geen cent.’                    
+                    </p>
                 {/if}
             </p>
 
