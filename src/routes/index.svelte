@@ -37,7 +37,7 @@
         <h3>Maanlichtverhalen</h3>                    
             <p>
                 De auteur Hein Heijnen werkt aan een nieuwe bundel levensverhalen. Telkens één A-viertje. Daarin vindt vaak een ontmoeting plaats, die het alledaagse overschrijdt. <br />
-                De werktitel luidt: 'Maanlichtverhalen'. <br />
+                De werktitel luidt: 'Maanlichtverhalen'. De bundel verschijnt medio 2024 en is <a href="https://libris.nl/boek?authortitle=hein-heijnen/maanlichtverhalen--9789493288133#">hier</a> te reserveren . <br />
                 Een van deze verhalen is 'Weeshuis', welke hieronder te lezen is. <br />
                 <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Weeshuis'": "Open 'Weeshuis'"}</button>
                 {#if openAccordion}
