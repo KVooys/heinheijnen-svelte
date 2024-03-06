@@ -35,7 +35,6 @@
 
 	<div class="booknav">
         <h3>Maanlichtverhalen</h3>                    
-
         <div class="books">
             <div class="image_div">
                 <Lightbox>
