@@ -5,6 +5,6 @@ node_modules
 /package
 .env
 .env.*
-.prettierrc
-.eslintrc.cjs
-.netlify
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

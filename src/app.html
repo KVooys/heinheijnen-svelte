@@ -1,7 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
-		<title>Homepage van de auteur Hein Heijnen</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Homepage van de auteur Hein Heijnen" />
 		<link rel="icon" href="images/favicon.ico" />
@@ -9,9 +8,9 @@
 		<link rel="stylesheet" href="css/sakura.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%svelte.head%
+		%sveltekit.head%
 	</head>
-	<body>
-		<div id="svelte">%svelte.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

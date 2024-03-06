@@ -120,9 +120,9 @@
                     Toch wil ze zelfs het adres van een professor in Zweden aan je vragen. Ze snauwde hem toe: ‘Die
                     mediterrane genen van jou vertrouw ik voor geen cent.’                    
                     </p>
-                    <br />
+                    
                 {/if}
-
+                <br />
                 <a href="https://libris.nl/a/hein-heijnen/maanlichtverhalen/501502880?#paperback-9789493288133"
                     >Maanlichtverhalen bij Libris <i class="material-icons">library_add</i></a
                 >
