@@ -50,6 +50,7 @@
                 verhalen in deze bundel goed aflopen, is een wonder op zich.  Want zonneschijn is in het leven vaak
                 op de bon.
                 <br />
+                <br />
                 Bij de verwikkelingen die zich ontvouwen, speelt nu eens de invloed van een droom een rol, dan
                 weer de hulp van intuïtie. Soms schiet de muze van het toeval te hulp. Al lezend dringt tot je door: er
                 bestaat meer dan denken en voelen. Al sinds de Steentijd gebruikt de mens de vuistbijl van
@@ -57,6 +58,7 @@
                 literatuur ons een blik in een Beerput van narigheid en ellende. Hij wil laten zien dat de mens meer is
                 dan een automaat. Met z’n vertelsels probeert auteur Hein Heijnen het kalf tijdig uit de put te halen -
                 - vóór het is verdronken.
+                <br />
                 <br />
                 Een van de verhalen in Maanlichtverhalen is 'Weeshuis', welke hieronder te lezen is. <br />
                 <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Weeshuis'": "Open 'Weeshuis'"}</button>
