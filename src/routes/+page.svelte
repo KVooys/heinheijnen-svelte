@@ -44,10 +44,10 @@
 
             <p class="content">
                 De bundel Maanlichtverhalen brengt u in een doolhof van ontmoetingen in clair-obscur.
-                Maanlichtverhalen ontstaan meestal ’s nachts. Een maanlichtverhaal beschrijft een ontmoeting met
-                iemand die een wonderlijke ervaring heeft meegemaakt. De beleving van zo’n ontmoeting kan een
+                Maanlichtverhalen ontstaan meestal 's nachts. Een maanlichtverhaal beschrijft een ontmoeting met
+                iemand die een wonderlijke ervaring heeft meegemaakt. De beleving van zo'n ontmoeting kan een
                 gevoel oproepen dat het te maken heeft met een engel uit een andere dimensie. En dat de meeste
-                verhalen in deze bundel goed aflopen, is een wonder op zich.  Want zonneschijn is in het leven vaak
+                verhalen in deze bundel goed aflopen, is een wonder op zich. Want zonneschijn is in het leven vaak
                 op de bon.
                 <br />
                 <br />
@@ -56,8 +56,8 @@
                 bestaat meer dan denken en voelen. Al sinds de Steentijd gebruikt de mens de vuistbijl van
                 verbeeldingskracht en fantasie, om te overleven in de chaos. Beklemmend geeft veel eigentijdse
                 literatuur ons een blik in een Beerput van narigheid en ellende. Hij wil laten zien dat de mens meer is
-                dan een automaat. Met z’n vertelsels probeert auteur Hein Heijnen het kalf tijdig uit de put te halen -
-                - vóór het is verdronken.
+                dan een automaat. Met z'n vertelsels probeert auteur Hein Heijnen het kalf tijdig uit de put te halen -
+                vóór het is verdronken.
                 <br />
                 <br />
                 Een van de verhalen in Maanlichtverhalen is 'Weeshuis', welke hieronder te lezen is. <br />
