@@ -35,12 +35,30 @@
 
 	<div class="booknav">
         <h3>Maanlichtverhalen</h3>                    
-            <p>
-                De auteur Hein Heijnen werkt aan een nieuwe bundel levensverhalen. Telkens één A-viertje. Daarin vindt vaak een ontmoeting plaats, die het alledaagse overschrijdt. <br />
-                De titel is: 'Maanlichtverhalen'. De uitgever is Rinus van Warven te Kampen. De bundel verschijnt medio 2024 en is <a href="https://libris.nl/boek?authortitle=hein-heijnen/maanlichtverhalen--9789493288133#">hier</a> te reserveren. <br />
-                Op vrijdag 8 maart 2024 is een feestelijke boekpresentatie in <a href="https://maps.app.goo.gl/p88Znhx1o743k8vu9">boekhandel Linnaeus</a> op de Middenweg in Amsterdam Watergraafsmeer, vanaf 18.00 tot circa 20.00 uur.  <br />
+        <div class="books">
+            <div class="image_div">
+                <Lightbox>
+                    <img src="images\Maanlichtverhalen.jpg" alt="Maanlichtverhalen">
+                </Lightbox>
+            </div>
+
+            <p class="content">
+                De bundel Maanlichtverhalen brengt u in een doolhof van ontmoetingen in clair-obscur.
+                Maanlichtverhalen ontstaan meestal ’s nachts. Een maanlichtverhaal beschrijft een ontmoeting met
+                iemand die een wonderlijke ervaring heeft meegemaakt. De beleving van zo’n ontmoeting kan een
+                gevoel oproepen dat het te maken heeft met een engel uit een andere dimensie. En dat de meeste
+                verhalen in deze bundel goed aflopen, is een wonder op zich.  Want zonneschijn is in het leven vaak
+                op de bon.
                 <br />
-                Een van deze verhalen is 'Weeshuis', welke hieronder te lezen is. <br />
+                Bij de verwikkelingen die zich ontvouwen, speelt nu eens de invloed van een droom een rol, dan
+                weer de hulp van intuïtie. Soms schiet de muze van het toeval te hulp. Al lezend dringt tot je door: er
+                bestaat meer dan denken en voelen. Al sinds de Steentijd gebruikt de mens de vuistbijl van
+                verbeeldingskracht en fantasie, om te overleven in de chaos. Beklemmend geeft veel eigentijdse
+                literatuur ons een blik in een Beerput van narigheid en ellende. Hij wil laten zien dat de mens meer is
+                dan een automaat. Met z’n vertelsels probeert auteur Hein Heijnen het kalf tijdig uit de put te halen -
+                - vóór het is verdronken.
+                <br />
+                Een van de verhalen in Maanlichtverhalen is 'Weeshuis', welke hieronder te lezen is. <br />
                 <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Weeshuis'": "Open 'Weeshuis'"}</button>
                 {#if openAccordion}
                 
@@ -102,8 +120,14 @@
                     Toch wil ze zelfs het adres van een professor in Zweden aan je vragen. Ze snauwde hem toe: ‘Die
                     mediterrane genen van jou vertrouw ik voor geen cent.’                    
                     </p>
+                    <br />
                 {/if}
+
+                <a href="https://libris.nl/a/hein-heijnen/maanlichtverhalen/501502880?#paperback-9789493288133"
+                    >Maanlichtverhalen bij Libris <i class="material-icons">library_add</i></a
+                >
             </p>
+        </div>
 
 		<h3>Toverdrankjes voor geluk</h3>
 
