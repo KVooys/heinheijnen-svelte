@@ -60,67 +60,67 @@
                 vóór het is verdronken.
                 <br />
                 <br />
-                Een van de verhalen in Maanlichtverhalen is 'Weeshuis', welke hieronder te lezen is. <br />
-                <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Weeshuis'": "Open 'Weeshuis'"}</button>
+                Een van de verhalen in Maanlichtverhalen is 'Kus des Doods', welke hieronder te lezen is. <br />
+                <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Kus des Doods'": "Open 'Kus des Doods'"}</button>
                 {#if openAccordion}
                 
-                    <h4>Weeshuis</h4>
+                    <h4>Kus des Doods</h4>
                     <p>
-                    Bij mijn wandeling met een volle kinderwagen spreekt een jeugdig stel me aan op straat. Met haar
-                    grote neus en haar lange piekhaar heeft zij wel iets van een heks. Hij lijkt een Italiaan of Griek door
-                    zijn donkere krullenbol. Toch zie ik de volle maan al schemeren op zijn kruin.
-                    In de kinderwagen zitten mijn twee geadopteerde jongetjes.
+                        Hijgend komt een oude man naast me op het bankje zitten. Met het zweet op zijn voorhoofd zegt hij:
+                        ‘Hier krijgt u mij voorlopig niet meer weg.’
+                        ‘Leuk,’ zeg ik. ‘U ziet er uit of u heel wat mooie verhalen kunt vertellen.’
+                        Hij legt zijn stok neer en zegt: ‘U vleit me. Als u het goed vindt vertel ik u een waar gebeurd drama
+                        over mijn grootvader. Het is nog uit de vorige eeuw.’
+                        ‘ik luister graag naar u,’antwoord ik.
                     </p>
                     <p>
-                    De feeks roept: ‘Jeetje. Wat een mooie kindertjes. Komen ze uit Zanzibar? <br />
-                    Zij is al de vierde vragensteller van de dag. Deze donkere kindertjes hebben de aantrekkingskracht
-                    van een achtbaan op de kermis.
+                        Destijds werden zijn broer Joost en hij opgevoed door hun grootouders, begint hij. We hielden ons
+                        echter vaak niet aan hun advies. De vloek van het ouderlijk gezag is dat het te laat wordt erkend.
+                        In die tijd was zijn grootvader onderwijzer in Heerlen. De steenkoolmijn was nog vol in bedrijf. Op
+                        een dag vertelde hij ons, zijn kleinzoons, een ervaring die hem zijn hele leven bijbleef:
                     </p>
                     <p>
-                    Langzamerhand begin ik buikpijn te krijgen van alle aandacht. ‘Nee hoor,‘ zeg ik. ‘We haalden ze uit
-                    een weeshuis in Stockholm.’ <br />
-                    ‘Hé ?! Scandinavië ?’ <br />
-                    ‘Ja. Destijds werd het schaap Dolly met veel succes gekloond. Nog wel uit haar eigen huidcellen. Dat
-                    bracht de hoogleraar Romeo Strindberg op het idee iets dergelijks met mensen te gaan doen. Om
-                    precies te zijn: hij wilde het materiaal van overleden genieën bewerken. Hij droomde ervan ze
-                    postuum te kunnen klonen. Hun stoffelijke resten zijn de relieken van cultuurprofeten. Ze vormen
-                    een brug tussen ons en deze grote geesten. Op allerlei begraafplaatsen en in diverse kerken slaagde
-                    hij erin monsters van hun overblijfselen te nemen. ’
+                        Als jonge man wandelt hij op een doordeweekse dag naar de school waar hij lesgeeft. Net als nu is
+                        het een mooie dag met zonnig weer. Iedereen draagt kleurrijke lichte kleding. Vaker dan anders
+                        groeten onbekenden elkaar op straat. Met een glimlach en een wens. 
+                    </p>
+                    <p> 
+                        Verder lopend ziet hij opeens een zestal paarden. Op een kluitje bij elkaar. Oude deels grijze dieren
+                        bij wie de huid niet meer zo glanst. Afgeleefd, zo u wilt. Het valt hem op dat ze niet -- zoals anders--
+                        mistroostig en geduldig blijven stilstaan. Door hun lijven gaan kleine schokjes. Ze wiegen heen en
+                        weer. Ze huppelen en springen. Ze maken kleine danspasjes op de plaats. Deze paarden verheugen
+                        zich ergens over. Ze zijn blij.
                     </p>
                     <p>
-                    ‘Was het niet lastig om iets bruikbaars uit die resten te verkrijgen?’ vraagt ze praktisch. <br />
-                    ‘Ja. Neem bijvoorbeeld Dimitri Sjostakovitsj. Bij nacht en ontij moest zijn kist heimelijk geopend
-                    worden om zijn lichaamscellen eruit op te diepen.’
+                        Met een schok dringt het tot mijn grootvader door waarover. Deze dieren hebben talloze lorries
+                        met kolen door de gangen van de mijn gesleept. Verdoemd tot leven in het schemerduister. Vandaag
+                        zijn ze uitgelaten vrolijk. Na jaren zijn ze voor het eerst weer boven de grond. Ze kunnen er niet stil
+                        van blijven staan. Vol vreugde begroeten ze het licht van de zon.
                     </p>
                     <p>
-                    ‘Maar na zoveel jaar,’ blijft ze tegen werpen, ‘zal alles wel vergaan zijn, behalve de botresten.’<br />
-                    ‘Dat valt enorm mee. Gelukkig vond de professor een revolutionaire methode om de huid van het
-                    overschot weer op te peppen. Hij dompelt hem vierentwintig uur in een verjongingsbad van eigen
-                    vinding. Tussen haakjes: eenmaal per jaar gaan hij en zijn medewerkers ook in dat bad zitten. Om
-                    hun rimpelig uiterlijk en hun verlepte huid een shot van jeugd en frisheid toe te dienen. Hoe dan ook:
-                    nu staat hij aan het hoofd van een weeshuis met gekloonde kinderen van hoogbegaafde mensen.’
-                    ‘Aan wie moeten we dan denken ?’<br />
-                    ‘Bijvoorbeeld aan Einstein, Picasso, Maria Callas. Alleen ingewijden weten van welk megatalent ze
-                    afkomstig zijn.’
+                        Als mijn grootvader hun joligheid ziet, springen hem de tranen in de ogen. Dit zonlicht betekent
+                        voor hen een kus des Doods. Morgen moeten ze naar de slacht. Bij het aanvoelen van hun dwaze
+                        vrolijkheid begrijpt hij in een flits dat deze edele dieren ook gevoelens, emoties en pijn kunnen
+                        ervaren—evenals wijzelf. Volgens hem hebben ze ook gevoel voor humor.
                     </p>
                     <p>
-                    Ze wijst naar de kindertjes. ‘Mag ik vragen wie… – om zo te zeggen - hun ideële vader is ?’<br />
-                    ‘Privacy hoor. Toch kan ik wel verklappen dat het om Nelson Mandela gaat. Deze jongens kunnen
-                    beiden dromen over een loopbaan als grote vredestichters.’<br />
-                    ‘Heeft deze gang van zaken niet een groot bezwaar? Ontstaat er door dat kloongedoe niet een
-                    vaderloze maatschappij?’<br />
-                    ‘Ach nee. Dat zou juist heel mooi zijn: hofmakerij en seks alleen voor je plezier.’<br />
-                    Hierop beweert de heks met schelle stem dat draagmoeders altijd nodig zullen blijven.<br />
-                    ‘Natuurlijk’ zeg ik lachend. ‘Zonder ons, vrouwen, zou het leven voor de gewone man een hel zijn.’
-                    De twee druipen af. Gelukkig kon ik ze afschepen met een ter plekke verzonnen fantasieverhaal.
-                    Even later komt mijn lieve vriendin aanlopen. Met een benieuwd gezicht vraagt ze wat ik dat
-                    nieuwsgierige stel in hemelsnaam op de mouw heb gespeld.
-                    </p><p>
-                    ‘Waarom wil je dat weten?’<br />
-                    ‘Die Italiaan sputterde dat hij nog nooit in zijn leven zo’n wartaal had gehoord. ‘Het is kukeleku,’
-                    riep hij—tegen zijn voorhoofd tikkend.<br />
-                    Toch wil ze zelfs het adres van een professor in Zweden aan je vragen. Ze snauwde hem toe: ‘Die
-                    mediterrane genen van jou vertrouw ik voor geen cent.’                    
+                        Op deze dag besluit mijn grootvader de overstap naar het vegetarisme te maken. Zijn hele verdere
+                        leven at hij geen vlees of vis meer. Hij werd heel oud. Ach, mijnheer, u kunt vast begrijpen hoe wreed
+                        sommige kinderen kunnen zijn. Destijds hadden Joost en ik moeite met dit ons opgedrongen
+                        eetpatroon. Onze grootouders konden ons de oren van het hoofd kletsen, hoog springen, laag
+                        springen—wij wilden vlees. In die tijd gingen we vaak mee-eten bij vrienden en kennissen. Eenmaal
+                        uit huis hebben we de schade behoorlijk ingehaald.
+                    </p>
+                    <p>
+                        Pas jaren later kwam het in de mode om slechts enkele dagen per week vlees te eten. Of zelfs
+                        helemaal niet meer. Ook om paarden en koeien eervol met pensioen te sturen. Met verbazing en
+                        spijt dacht hij toen bij mezelf: “Achteraf had mijn grootvader toch gelijk.”’ Opnieuw die vloek van het
+                        ouderlijk gezag, weet je wel.         
+                    </p>
+                    <p>
+                        Opeens kijkt de oude man op zijn horloge. Met de woorden dat hij naar een afspraak moet hier
+                        dichtbij, pakt hij zijn stok en staat op. Bij het weglopen groet hij me en zegt: ‘Geloof me.
+                        Paardenbiefstuk liet ik altijd liggen. Wegens hun gevoel voor humor.’ 
                     </p>
                     
                 {/if}
