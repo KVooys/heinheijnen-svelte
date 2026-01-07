@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { Lightbox } from 'svelte-lightbox';
     import translations from '../translations.json';
 
