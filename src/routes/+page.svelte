@@ -18,12 +18,20 @@
         }
     }
 
-    function toggleAccordion() {
-        if (openAccordion) {
-            openAccordion = false;
+    function toggleAccordion1() {
+        if (openAccordion1) {
+            openAccordion1 = false;
         }
         else {
-            openAccordion = true;
+            openAccordion1 = true;
+        }
+
+    function toggleAccordion2() {
+        if (openAccordion2) {
+            openAccordion2 = false;
+        }
+        else {
+            openAccordion2 = true;
         }
     }
 </script>
@@ -34,6 +42,91 @@
     </div>
 
 	<div class="booknav">
+		<h3>Nocturnes</h3>
+		<div class="books">
+			<div class="image_div">
+                
+			</div>
+
+			<p class="content">
+				Een nocturne is een kort verhaal van een tot twee A-viertjes, waarin een ik-figuur een wonderlijke ontmoeting beleeft die doorgaans goed afloopt. 
+				Soms speelt de invloed van een droom een rol of de muze van het toeval. Een enkele keer schrijft een ik-figuur een goede
+				afloop toe aan aan zijn relatie met de Eeuwige. 
+				<br />
+				<br />
+				De term ‘Nocturnes’ is geïnspireerd door muziek van Frederic Chopin. Bij het luisteren naar
+				zijn klanken is het of de volle maan met een glimlach aan de avondhemel staat. De wereld
+				lijkt bedekt met een glinsterend laagje wit vernis. In schemerlicht menen we elfjes sierlijk te
+				zien dansen met kobolden – als zeepaardjes in de zee. We willen graag meebewegen maar
+				we zijn slechts toeschouwers, gehuld in witte maanpakken.
+				<br />
+				<br />
+				Een van de verhalen in Nocturnes is 'Bordje', welke hieronder te lezen is. <br />
+                <button on:click={toggleAccordion1}>{openAccordion1 ? "Sluit 'Bordje'": "Open 'Bordje'"}</button>
+                {#if openAccordion1}
+					<h4>Bordje</h4>
+					<p>
+					Op een dag maken de ouders van Wiesje weer eens heftige ruzie. Haar vader is tweede stuurman op
+					de wilde vaart. Haar moeder verdenkt hem ervan elders een liefje te onderhouden. Met de post is
+					een ansicht uit Argentinië gekomen, met een afbeelding van een uitdagend geklede tangodanseres.
+					In hanenpoten stond erop geschreven: Many kisses and much love from Juanita De zeebonk ontkent
+					in alle toonaarden dat dit bericht voor hem is bestemd. Hij maakt dreigende gebaren. Wiesje gaat
+					beschermend vóór haar mama staan. Desondanks slaat hij moeder een blauw oog. Daarna vertrekt
+					hij voor altijd.
+					</p>
+					<p>
+					Bovenstaande geschiedenis heeft Wiesje mij in fragmenten verteld. Als scherven waaruit ik de
+					kostbare vaas van het huwelijk van haar ouders moet zien te lijmen. Regelmatig haalt ze de was op
+					bij ons. Tegelijk brengt ze dan schone spullen mee terug. Ze heeft grote blauwe ogen. Haar jeugdig
+					gezicht staat doorgaans bezorgd alsof ze altijd wolken ziet voor de zon. In het voorbijgaan vertelt ze
+					mij wel eens iets over haar jeugd. De ervaring met haar vader en zijn vertrek voorgoed, heeft Wiesje
+					diep gekwetst.
+					</p>
+					<p>
+					Na het sluiten van de wasserette waar ze enkele jaren heeft gewerkt, koopt ze twee grote
+					wasmachines. Ze begint een wassalon aan huis. In haar driewielige auto haalt en brengt ze zelf de
+					was. Haar klanten stromen toe.
+					</p>
+					<p>
+					Bij het overhandigen van de schone was doet ze mij wel eens verslag van haar ideeën over het
+					huwelijk. Volgens haar is zo’n verbintenis een gouden ketting beladen met de loodzware kralen van
+					ellende en verdriet. Er zijn wel rozen maar die worden door de doornen overwoekerd. Hoe komt dat?
+					Door een oerwoud van betuttelende instanties van de overheid. Deze zien elke ongehuwde vrouw als
+					een drenkeling op volle zee. Een reddingsbootje is dan hard nodig om haar voor verdrinking te
+					behoeden. Hulpbehoevend klimt ze aan boord. Haar redding is helaas maar schijn. Een ongewassen
+					bruut zit te grijnzen aan het roer. Bedilziek eist hij dat ze elke dag lekker kookt en de bedden
+					opmaakt. Hij bedriegt haar. Onder meer met het huishoudboekje. Alleen in het gunstigste geval laat
+					hij na om haar te slaan.
+					</p>
+					<p>
+					Op een dag laat Wiesje weten dat ze verhinderd is om langs te komen. Op aandringen van mijn
+					vrouw breng ik de was zelf naar haar toe. Bij het aanbellen valt mijn oog op een geëmailleerd bordje
+					pal naast haar voordeur. Met sierlijke letters staat erop geschreven: Als je niet trouwt of erft, moet je
+					werken tot je sterft.
+					</p>
+					<p>
+					Deze woorden plaatsen haar in een nieuw licht. Dit bordje schetst een ander beeld van het huwelijk
+					dan zij het heeft voorgesteld. Ziet ze toch lichtpuntjes ervoor diep in haar hart…?
+					Niet lang daarna blijft ze op de afgesproken dag weer weg. Zonder nadere aankondiging. Het
+					brengt ons gezin met kleine kinderen in verlegenheid. Ligt ze misschien ziek thuis? Ik overweeg haar
+					aan huis op te zoeken. Gelukkig blijkt dat overbodig. Toevallig valt het oog van Lilian op een korte
+					annonce in de krant.
+					</p>
+					<p>
+					Wiesje is in het huwelijk getreden. Zonder haar klanten hierover een bericht te sturen. Schaamt ze
+					zich misschien – na al haar tirades over het huwelijk? Opmerkelijk is haar partnerkeuze: een
+					stuurman van de wilde vaart.
+					</p>
+					<p>
+					We sturen haar een kaartje om haar veel geluk en voorspoed toe te wensen. We krijgen geen
+					reactie. Ze komt ook niet meer langs om haar werk te doen. Is haar misschien een erfenis in de
+					schoot gevallen? Dat zou fijn voor haar zijn. We laten ons echter niets wijsmaken. Op een dag schiet
+					mij iets te binnen. Ik rijd erlangs. En zie: het bordje naast de deur is weg.
+					</p>
+				{/if}
+			</p>
+		</div>
+		
         <h3>Maanlichtverhalen</h3>                    
         <div class="books">
             <div class="image_div">
@@ -61,8 +154,8 @@
                 <br />
                 <br />
                 Een van de verhalen in Maanlichtverhalen is 'Kus des Doods', welke hieronder te lezen is. <br />
-                <button on:click={toggleAccordion}>{openAccordion ? "Sluit 'Kus des Doods'": "Open 'Kus des Doods'"}</button>
-                {#if openAccordion}
+                <button on:click={toggleAccordion2}>{openAccordion2 ? "Sluit 'Kus des Doods'": "Open 'Kus des Doods'"}</button>
+                {#if openAccordion2}
                 
                     <h4>Kus des Doods</h4>
                     <p>
