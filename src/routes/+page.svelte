@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
 	import { Lightbox } from 'svelte-lightbox';
     import translations from '../translations.json';
 
     let language_toggle = "nl";
     let selectedTranslation = translations[0];
-    let openAccordion = false;
+    let openAccordion1 = false;
+	let openAccordion2 = false;
 
     function toggleLanguage() {
         if (language_toggle == "nl"){
