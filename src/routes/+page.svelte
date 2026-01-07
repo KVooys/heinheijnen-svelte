@@ -25,6 +25,7 @@
         else {
             openAccordion1 = true;
         }
+	}
 
     function toggleAccordion2() {
         if (openAccordion2) {
